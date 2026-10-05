@@ -8,6 +8,13 @@ show_downloads: false
 remote_theme: BDHU/minimalist
 color-scheme: auto
 markdown: kramdown
+sidebar:
+  - name: Home
+    link: /
+  - name: Resume
+    link: /docs/intro/
+  - name: Projects
+    link: /projects/
 kramdown:
   input: GFM
 plugins:
