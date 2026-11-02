@@ -5,7 +5,9 @@ blank_title: true
 favicon: true
 description: ""
 show_downloads: false
-remote_theme: BDHU/minimalist
+# Keep the last revision before the theme adopted Sass @use, which the
+# GitHub Pages v232 Sass compiler does not support.
+remote_theme: BDHU/minimalist@f19d6a6ef015ba93c5aee9ce80339e4959b0ffa7
 color-scheme: auto
 markdown: kramdown
 sidebar:
@@ -22,6 +24,3 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-remote-theme
-  - jekyll-seo-tag
-
-theme: jekyll-theme-tactile
